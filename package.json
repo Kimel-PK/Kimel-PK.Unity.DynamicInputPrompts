@@ -1,0 +1,12 @@
+{
+    "name": "com.kimel-pk.dynamic-input-prompts",
+    "displayName": "Dynamic Input Prompts",
+    "author": { "name": "Kimel" },
+    "version": "0.1.0",
+    "unity": "6000.0",
+    "description": "Provides dynamic buttons prompts based on input actions",
+    "keywords": [ "" ],
+    "license": "",
+    "category": "",
+    "dependencies": {}
+}
