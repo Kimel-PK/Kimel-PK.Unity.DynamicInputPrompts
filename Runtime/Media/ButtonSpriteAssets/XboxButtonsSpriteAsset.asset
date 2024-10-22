@@ -84,32 +84,32 @@ MonoBehaviour:
     m_Unicode: 65534
     m_GlyphIndex: 0
     m_Scale: 1
-    m_Name: Xbox_buttons_A
+    m_Name: Xbox_buttonSouth
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 1
     m_Scale: 1
-    m_Name: Xbox_buttons_B
+    m_Name: Xbox_buttonEast
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 2
     m_Scale: 1
-    m_Name: Xbox_buttons_X
+    m_Name: Xbox_buttonWest
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 3
     m_Scale: 1
-    m_Name: Xbox_buttons_Y
+    m_Name: Xbox_buttonNorth
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 4
     m_Scale: 1
-    m_Name: Xbox_buttons_LS
+    m_Name: Xbox_leftStick
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 5
     m_Scale: 1
-    m_Name: Xbox_buttons_LS_press
+    m_Name: Xbox_leftStickpress
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 6
@@ -185,8 +185,8 @@ MonoBehaviour:
     m_Metrics:
       m_Width: 256
       m_Height: 256
-      m_HorizontalBearingX: -128
-      m_HorizontalBearingY: 128
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 200
       m_HorizontalAdvance: 256
     m_GlyphRect:
       m_X: 0
@@ -201,8 +201,8 @@ MonoBehaviour:
     m_Metrics:
       m_Width: 256
       m_Height: 256
-      m_HorizontalBearingX: -128
-      m_HorizontalBearingY: 128
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 200
       m_HorizontalAdvance: 256
     m_GlyphRect:
       m_X: 256
@@ -217,8 +217,8 @@ MonoBehaviour:
     m_Metrics:
       m_Width: 256
       m_Height: 256
-      m_HorizontalBearingX: -128
-      m_HorizontalBearingY: 128
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 200
       m_HorizontalAdvance: 256
     m_GlyphRect:
       m_X: 512
@@ -233,8 +233,8 @@ MonoBehaviour:
     m_Metrics:
       m_Width: 256
       m_Height: 256
-      m_HorizontalBearingX: -128
-      m_HorizontalBearingY: 128
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 200
       m_HorizontalAdvance: 256
     m_GlyphRect:
       m_X: 768
