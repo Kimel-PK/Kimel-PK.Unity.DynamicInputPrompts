@@ -129,6 +129,7 @@ GameObject:
   - component: {fileID: 44000337}
   - component: {fileID: 44000339}
   - component: {fileID: 44000338}
+  - component: {fileID: 44000340}
   m_Layer: 5
   m_Name: PressX
   m_TagString: Untagged
@@ -254,6 +255,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 44000336}
   m_CullTransparentMesh: 1
+--- !u!114 &44000340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44000336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 849ef7236a05e7c4b8071842ae4b474c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hidePrompts: 0
+  disableObjectIfNoPrompts: 1
+  tmpText: {fileID: 44000338}
 --- !u!1 &80938407
 GameObject:
   m_ObjectHideFlags: 0
@@ -442,7 +458,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c58ebf8b79a3eb4680ca8873d36e4af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonSpritesInjectors: []
+  buttonSpritesInjectors:
+  - {fileID: 1990489245}
   <ShowOnStart>k__BackingField: 0
 --- !u!114 &222424094
 MonoBehaviour:
@@ -606,7 +623,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Prompts group 1
+  m_text: Prompts group 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1179,7 +1196,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c58ebf8b79a3eb4680ca8873d36e4af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonSpritesInjectors: []
+  buttonSpritesInjectors:
+  - {fileID: 1648223289}
   <ShowOnStart>k__BackingField: 0
 --- !u!114 &724819472
 MonoBehaviour:
@@ -1857,20 +1875,7 @@ MonoBehaviour:
       m_Calls: []
   m_ControlsChangedEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1187647885}
-        m_TargetAssemblyTypeName: KimelPK.DynamicInputPrompts.ButtonSpritesManager,
-          Assembly-CSharp-firstpass
-        m_MethodName: InputDeviceChanged
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls: []
@@ -1911,7 +1916,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <PlayerInput>k__BackingField: {fileID: 1187647884}
   <SupportedInputDevices>k__BackingField:
-  - {fileID: 11400000, guid: e154802a962259a4c85c1cd65bbe0a2d, type: 2}
+  - <SpritesheetName>k__BackingField: Keyboard
+    <GenericDeviceName>k__BackingField: Keyboard
+    <MatchingUnityInputNames>k__BackingField:
+    - Keyboard:/Keyboard
+    <ButtonSpritesAssets>k__BackingField:
+    - {fileID: 11400000, guid: 185ec5182e284c045b050954b6fed0cf, type: 2}
+    - {fileID: 11400000, guid: c11b6020bd942eb4ca9c263479eab3aa, type: 2}
+  - <SpritesheetName>k__BackingField: Mouse
+    <GenericDeviceName>k__BackingField: Mouse
+    <MatchingUnityInputNames>k__BackingField:
+    - Mouse:/Mouse
+    <ButtonSpritesAssets>k__BackingField:
+    - {fileID: 11400000, guid: 22eef06afbe970847ab7cb18e26d03b3, type: 2}
+  - <SpritesheetName>k__BackingField: Xbox
+    <GenericDeviceName>k__BackingField: Gamepad
+    <MatchingUnityInputNames>k__BackingField:
+    - XInputControllerWindows:/XInputControllerWindows
+    <ButtonSpritesAssets>k__BackingField:
+    - {fileID: 11400000, guid: 2c6765ceb93e419439dbae4a07bf30ce, type: 2}
+  - <SpritesheetName>k__BackingField: PS
+    <GenericDeviceName>k__BackingField: Gamepad
+    <MatchingUnityInputNames>k__BackingField:
+    - DualShock4GamepadHID
+    - DualSenseGamepadHID
+    <ButtonSpritesAssets>k__BackingField: []
   <DontDestroyOnSceneChange>k__BackingField: 1
   activePromptGroups:
   - {fileID: 1786587863}
@@ -2160,15 +2189,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Gamepad button south: <sprite name="Xbox_buttonSouth">
-
-    Gamepad button
-    east: <sprite name="Xbox_buttonEast">
-
-    Gamepad button west: <sprite name="Xbox_buttonWest">
+  m_text: 'Gamepad button south: <sprite name="Xbox_buttonSouth"> <sprite name="PS_buttonSouth">
+    <sprite name="Steam_buttonSouth"> <sprite name="Switch_buttonSouth">
 
     Gamepad
-    button north: <sprite name="Xbox_buttonNorth">'
+    button east: <sprite name="Xbox_buttonEast"> <sprite name="PS_buttonEast"> <sprite
+    name="Steam_buttonEast"> <sprite name="Switch_buttonEast">
+
+    Gamepad button
+    west: <sprite name="Xbox_buttonWest"> <sprite name="PS_buttonWest"> <sprite name="Steam_buttonWest">
+    <sprite name="Switch_buttonWest">
+
+    Gamepad button north: <sprite name="Xbox_buttonNorth">
+    <sprite name="PS_buttonNorth"> <sprite name="Steam_buttonNorth"> <sprite name="Switch_buttonNorth">'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2506,7 +2539,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Prompts group 1
+  m_text: Prompts group 2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2596,6 +2629,7 @@ GameObject:
   - component: {fileID: 1648223286}
   - component: {fileID: 1648223288}
   - component: {fileID: 1648223287}
+  - component: {fileID: 1648223289}
   m_Layer: 5
   m_Name: PressX
   m_TagString: Untagged
@@ -2721,6 +2755,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1648223285}
   m_CullTransparentMesh: 1
+--- !u!114 &1648223289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648223285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 849ef7236a05e7c4b8071842ae4b474c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hidePrompts: 0
+  disableObjectIfNoPrompts: 1
+  tmpText: {fileID: 1648223287}
 --- !u!1 &1786454730
 GameObject:
   m_ObjectHideFlags: 0
@@ -2908,7 +2957,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c58ebf8b79a3eb4680ca8873d36e4af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonSpritesInjectors: []
+  buttonSpritesInjectors:
+  - {fileID: 44000340}
   <ShowOnStart>k__BackingField: 0
 --- !u!114 &1786587864
 MonoBehaviour:
@@ -2947,6 +2997,7 @@ GameObject:
   - component: {fileID: 1990489242}
   - component: {fileID: 1990489244}
   - component: {fileID: 1990489243}
+  - component: {fileID: 1990489245}
   m_Layer: 5
   m_Name: PressX
   m_TagString: Untagged
@@ -3072,6 +3123,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1990489241}
   m_CullTransparentMesh: 1
+--- !u!114 &1990489245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990489241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 849ef7236a05e7c4b8071842ae4b474c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hidePrompts: 0
+  disableObjectIfNoPrompts: 1
+  tmpText: {fileID: 1990489243}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

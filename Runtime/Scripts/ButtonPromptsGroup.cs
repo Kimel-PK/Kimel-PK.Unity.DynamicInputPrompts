@@ -11,10 +11,18 @@ namespace KimelPK.DynamicInputPrompts {
         private void Start () {
             if (ShowOnStart)
                 Show();
+            else
+                Hide ();
         }
 
-        public void Show () {}
+        public void Show () {
+            foreach (ButtonSpritesInjector buttonSpritesInjector in buttonSpritesInjectors)
+                buttonSpritesInjector.HidePrompts = false;
+        }
 
-        public void Hide () {}
+        public void Hide () {
+            foreach (ButtonSpritesInjector buttonSpritesInjector in buttonSpritesInjectors)
+                buttonSpritesInjector.HidePrompts = true;
+        }
     }
 }

@@ -136,7 +136,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Xbox_buttons_A
+      name: Xbox_A
       rect:
         serializedVersion: 2
         x: 0
@@ -144,7 +144,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -158,7 +158,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_buttons_B
+      name: Xbox_B
       rect:
         serializedVersion: 2
         x: 256
@@ -166,7 +166,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -180,7 +180,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_buttons_X
+      name: Xbox_X
       rect:
         serializedVersion: 2
         x: 512
@@ -188,7 +188,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -202,7 +202,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_buttons_Y
+      name: Xbox_Y
       rect:
         serializedVersion: 2
         x: 768
@@ -210,7 +210,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -224,7 +224,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_buttons_LS
+      name: Xbox_LS
       rect:
         serializedVersion: 2
         x: 0
@@ -232,7 +232,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -246,7 +246,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_buttons_LS_press
+      name: Xbox_LS_press
       rect:
         serializedVersion: 2
         x: 256
@@ -254,7 +254,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -268,7 +268,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_buttons_RS
+      name: Xbox_RS
       rect:
         serializedVersion: 2
         x: 512
@@ -276,7 +276,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -290,7 +290,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_buttons_RS_press
+      name: Xbox_RS_press
       rect:
         serializedVersion: 2
         x: 768
@@ -298,7 +298,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -312,7 +312,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_buttons_dpad
+      name: Xbox_dpad
       rect:
         serializedVersion: 2
         x: 0
@@ -320,7 +320,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -334,7 +334,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_buttons_dpad_up
+      name: Xbox_dpad_up
       rect:
         serializedVersion: 2
         x: 256
@@ -342,7 +342,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -356,7 +356,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_buttons_dpad_right
+      name: Xbox_dpad_right
       rect:
         serializedVersion: 2
         x: 512
@@ -364,7 +364,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -378,7 +378,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_buttons_dpad_down
+      name: Xbox_dpad_down
       rect:
         serializedVersion: 2
         x: 768
@@ -386,7 +386,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -400,7 +400,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_buttons_dpad_left
+      name: Xbox_dpad_left
       rect:
         serializedVersion: 2
         x: 1024
@@ -408,7 +408,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -422,7 +422,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_buttons_LT
+      name: Xbox_LT
       rect:
         serializedVersion: 2
         x: 0
@@ -430,7 +430,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -444,7 +444,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_buttons_LB
+      name: Xbox_LB
       rect:
         serializedVersion: 2
         x: 256
@@ -452,7 +452,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -466,7 +466,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_buttons_RT
+      name: Xbox_RT
       rect:
         serializedVersion: 2
         x: 512
@@ -474,7 +474,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -488,7 +488,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_buttons_RB
+      name: Xbox_RB
       rect:
         serializedVersion: 2
         x: 768
@@ -496,7 +496,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -510,7 +510,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_buttons_start
+      name: Xbox_start
       rect:
         serializedVersion: 2
         x: 0
@@ -518,7 +518,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -532,7 +532,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_buttons_select
+      name: Xbox_select
       rect:
         serializedVersion: 2
         x: 256
@@ -540,7 +540,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -554,7 +554,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_buttons_upload
+      name: Xbox_upload
       rect:
         serializedVersion: 2
         x: 512
@@ -562,7 +562,7 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -589,26 +589,27 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Xbox_buttons_A: -541143376
-      Xbox_buttons_B: 364228505
-      Xbox_buttons_LB: 855054527
-      Xbox_buttons_LS: -1336144062
-      Xbox_buttons_LS_press: 1755529792
-      Xbox_buttons_LT: -1793311192
-      Xbox_buttons_RB: -1250373732
-      Xbox_buttons_RS: 417381976
-      Xbox_buttons_RS_press: -1704148774
-      Xbox_buttons_RT: -1707799531
-      Xbox_buttons_X: 941710567
-      Xbox_buttons_Y: -1082585429
-      Xbox_buttons_dpad: 1675049784
-      Xbox_buttons_dpad_down: 2122608897
-      Xbox_buttons_dpad_left: -1080021999
-      Xbox_buttons_dpad_right: 355461459
-      Xbox_buttons_dpad_up: 567912515
-      Xbox_buttons_select: -1959879962
-      Xbox_buttons_start: 126504910
-      Xbox_buttons_upload: -1082440878
+      Xbox_A: -541143376
+      Xbox_B: 364228505
+      Xbox_LB: 855054527
+      Xbox_LS: -1336144062
+      Xbox_LS_press: 1755529792
+      Xbox_LT: -1793311192
+      Xbox_RB: -1250373732
+      Xbox_RS: 417381976
+      Xbox_RS_press: -1704148774
+      Xbox_RT: -1707799531
+      Xbox_X: 941710567
+      Xbox_Y: -1082585429
+      Xbox_dpad: 1675049784
+      Xbox_dpad_down: 2122608897
+      Xbox_dpad_left: -1080021999
+      Xbox_dpad_right: 355461459
+      Xbox_dpad_up: 567912515
+      Xbox_select: -1959879962
+      Xbox_start: 126504910
+      Xbox_upload: -1082440878
+      box_buttons_LS: -1336144062
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

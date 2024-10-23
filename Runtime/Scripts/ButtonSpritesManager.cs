@@ -5,15 +5,17 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 namespace KimelPK.DynamicInputPrompts {
-	[RequireComponent(typeof(PlayerInput))]
+	
 	public class ButtonSpritesManager : MonoBehaviour {
 
 		public static ButtonSpritesManager Instance { get; private set; }
         
 		public static Action OnInputDeviceChanged = delegate {};
+
+		public static List<(string, string)> ActiveInputDeviceNames { get; private set; } = new();
 		
 		[field: SerializeField] public PlayerInput PlayerInput { get; private set; }
-		[field: SerializeField] public List<InputDeviceDefinition> SupportedInputDevices { get; private set; }
+		[field: SerializeField] public List<SupportedInputDevice> SupportedInputDevices { get; private set; }
 		[field: SerializeField] public bool DontDestroyOnSceneChange { get; set; } = true;
 		
 		[SerializeField] private List<ButtonPromptsGroup> activePromptGroups = new();
@@ -29,13 +31,15 @@ namespace KimelPK.DynamicInputPrompts {
 		}
 
 		private void Start () {
-			foreach (InputDeviceDefinition inputDeviceDefinition in SupportedInputDevices)
-				TMP_Settings.defaultSpriteAsset.fallbackSpriteAssets.Add(inputDeviceDefinition.ButtonSpritesAsset);
+			foreach (SupportedInputDevice supportedDevice in SupportedInputDevices)
+				TMP_Settings.defaultSpriteAsset.fallbackSpriteAssets.AddRange(supportedDevice.ButtonSpritesAssets);
 		}
 
 		private void OnDestroy () {
-			foreach (InputDeviceDefinition inputDeviceDefinition in SupportedInputDevices)
-				TMP_Settings.defaultSpriteAsset.fallbackSpriteAssets.Remove(inputDeviceDefinition.ButtonSpritesAsset);
+			foreach (SupportedInputDevice supportedDevice in SupportedInputDevices) {
+				foreach (TMP_SpriteAsset buttonSpritesAsset in supportedDevice.ButtonSpritesAssets)
+					TMP_Settings.defaultSpriteAsset.fallbackSpriteAssets.Remove (buttonSpritesAsset);
+			}
 		}
 
 		public static InputAction GetInputAction(string actionName) {
@@ -48,14 +52,23 @@ namespace KimelPK.DynamicInputPrompts {
 			return null;
 		}
 		
+		// This method is called by the PlayerInput SendMessages, you can call it manually if you want to update the prompts
 		public void OnControlsChanged(PlayerInput input) {
-			CacheCurrentInputDevice();
+			GetActiveInputDevices();
 			OnInputDeviceChanged.Invoke();
 		}
 
-		private void CacheCurrentInputDevice() {
-			foreach (InputDevice inputDevice in PlayerInput.devices) {
-				Debug.Log(inputDevice);
+		private void GetActiveInputDevices() {
+			ActiveInputDeviceNames.Clear();
+			foreach (SupportedInputDevice supportedDevice in SupportedInputDevices) {
+				foreach (InputDevice inputDevice in PlayerInput.devices) {
+					foreach (string unityInputName in supportedDevice.MatchingUnityInputNames) {
+						if (inputDevice.ToString () != unityInputName)
+							continue;
+						
+						ActiveInputDeviceNames.Add ((supportedDevice.SpritesheetName, supportedDevice.GenericDeviceName));
+					}
+				}
 			}
 		}
 		
