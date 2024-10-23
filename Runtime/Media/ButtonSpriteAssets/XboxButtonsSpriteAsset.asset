@@ -129,32 +129,32 @@ MonoBehaviour:
     m_Unicode: 65534
     m_GlyphIndex: 9
     m_Scale: 1
-    m_Name: Xbox_buttons_dpad_up
+    m_Name: Xbox_dpad/up
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 10
     m_Scale: 1
-    m_Name: Xbox_buttons_dpad_right
+    m_Name: Xbox_dpad/right
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 11
     m_Scale: 1
-    m_Name: Xbox_buttons_dpad_down
+    m_Name: Xbox_dpad/down
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 12
     m_Scale: 1
-    m_Name: Xbox_buttons_dpad_left
+    m_Name: Xbox_dpad/left
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 13
     m_Scale: 1
-    m_Name: Xbox_buttons_LT
+    m_Name: Xbox_leftTrigger
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 14
     m_Scale: 1
-    m_Name: Xbox_buttons_LB
+    m_Name: Xbox_leftShoulder
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 15

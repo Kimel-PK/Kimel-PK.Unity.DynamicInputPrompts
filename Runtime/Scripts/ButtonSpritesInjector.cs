@@ -17,16 +17,18 @@ namespace KimelPK.DynamicInputPrompts {
 		
 		[SerializeField] private bool hidePrompts;
 		[SerializeField] private bool disableObjectIfNoPrompts;
-		[SerializeField] private TMP_Text tmpText;
+		[SerializeField] private string prefix;
+		[SerializeField] private string suffix;
+		[SerializeField] private TMP_Text textMeshProText;
 
 		private string _originalText;
 
 		private void Awake () {
-			tmpText ??= GetComponent<TMP_Text>();
+			textMeshProText ??= GetComponent<TMP_Text>();
+			_originalText = textMeshProText.text;
 		}
 
 		private void Start() {
-			_originalText = tmpText.text;
 			InjectButtonSprites(_originalText);
 			ButtonSpritesManager.OnInputDeviceChanged += ButtonSpritesManager_InputDeviceChanged;
 		}
@@ -36,40 +38,25 @@ namespace KimelPK.DynamicInputPrompts {
 		}
 
 		private void InjectButtonSprites() {
-			tmpText.text = _originalText;
-			if (string.IsNullOrEmpty(_originalText))
-				return;
-
-			string actionName = ExtractActionName(tmpText.text);
-			while (!string.IsNullOrEmpty(actionName)) {
-				InputAction inputAction = ButtonSpritesManager.GetInputAction(actionName);
-				string icons = HidePrompts ? "" : GetIcons(inputAction, ButtonSpritesManager.ActiveInputDeviceNames);
-				switch (disableObjectIfNoPrompts) {
-					case true when icons == "" :
-						gameObject.SetActive(false);
-						return;
-					case true when icons != "" :
-						gameObject.SetActive(true);
-						break;
-				}
-				tmpText.text = tmpText.text.Replace($"<InputAction=\"{actionName}\">", icons);
-				actionName = ExtractActionName(tmpText.text);
-			}
+			InjectButtonSprites(_originalText);
 		}
 		
 		public void InjectButtonSprites(string text) {
 			_originalText = text;
-			tmpText.text = text;
+			textMeshProText.text = text;
 			if (string.IsNullOrEmpty(text))
 				return;
 
-			string actionName = ExtractActionName(tmpText.text);
+			string actionName = ExtractActionName(textMeshProText.text);
 			while (!string.IsNullOrEmpty(actionName)) {
 				InputAction inputAction = ButtonSpritesManager.GetInputAction(actionName);
-				string icons = GetIcons(inputAction, ButtonSpritesManager.ActiveInputDeviceNames);
-				tmpText.text = tmpText.text.Replace($"<InputAction=\"{actionName}\">", icons);
-				actionName = ExtractActionName(tmpText.text);
+				string icons = HidePrompts ? "" : GetIcons(inputAction, ButtonSpritesManager.ActiveInputDeviceNames);
+				textMeshProText.text = textMeshProText.text.Replace($"<InputAction=\"{actionName}\">", icons);
+				actionName = ExtractActionName(textMeshProText.text);
 			}
+			
+			if (disableObjectIfNoPrompts)
+				gameObject.SetActive(textMeshProText.text != _originalText);
 		}
 		
 		private void ButtonSpritesManager_InputDeviceChanged() {
@@ -84,17 +71,19 @@ namespace KimelPK.DynamicInputPrompts {
 			return null;
 		}
 
-		private static string GetIcons(InputAction inputAction, List<(string, string)> activeDeviceNames) {
-			string icons = string.Empty;
+		private string GetIcons(InputAction inputAction, List<(string, string)> activeDeviceNames) {
+			if (inputAction == null)
+				return "";
+			string icons = prefix;
 			foreach (InputBinding inputActionBinding in inputAction.bindings) {
-				Match match = Regex.Match(inputActionBinding.ToString(), @".*?\/(.*)\[");
+				Match match = Regex.Match(inputActionBinding.ToString(), @".*?\/(.*?)(?=\[|$)");
 
 				if (!match.Success)
 					continue;
 				
 				string buttonName = match.Groups[1].Value;
 				
-				// sprite name = Device_buttonName[_direction]
+				// sprite name = Device_buttonName[/direction]
 				foreach ((string, string) activeDeviceName in activeDeviceNames) {
 					if ($"<{activeDeviceName.Item2}>/{buttonName}" != inputActionBinding.effectivePath)
 						continue;
@@ -102,7 +91,7 @@ namespace KimelPK.DynamicInputPrompts {
 					icons += $"<sprite name=\"{activeDeviceName.Item1}_{buttonName}\">";
 				}
 			}
-			return icons;
+			return inputAction.bindings.Count == 0 ? "" : $"{icons}{suffix}";
 		}
 	}
 }

@@ -1916,31 +1916,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <PlayerInput>k__BackingField: {fileID: 1187647884}
   <SupportedInputDevices>k__BackingField:
-  - <SpritesheetName>k__BackingField: Keyboard
-    <GenericDeviceName>k__BackingField: Keyboard
-    <MatchingUnityInputNames>k__BackingField:
-    - Keyboard:/Keyboard
-    <ButtonSpritesAssets>k__BackingField:
-    - {fileID: 11400000, guid: 185ec5182e284c045b050954b6fed0cf, type: 2}
-    - {fileID: 11400000, guid: c11b6020bd942eb4ca9c263479eab3aa, type: 2}
-  - <SpritesheetName>k__BackingField: Mouse
-    <GenericDeviceName>k__BackingField: Mouse
-    <MatchingUnityInputNames>k__BackingField:
-    - Mouse:/Mouse
-    <ButtonSpritesAssets>k__BackingField:
-    - {fileID: 11400000, guid: 22eef06afbe970847ab7cb18e26d03b3, type: 2}
-  - <SpritesheetName>k__BackingField: Xbox
-    <GenericDeviceName>k__BackingField: Gamepad
-    <MatchingUnityInputNames>k__BackingField:
-    - XInputControllerWindows:/XInputControllerWindows
-    <ButtonSpritesAssets>k__BackingField:
-    - {fileID: 11400000, guid: 2c6765ceb93e419439dbae4a07bf30ce, type: 2}
-  - <SpritesheetName>k__BackingField: PS
-    <GenericDeviceName>k__BackingField: Gamepad
-    <MatchingUnityInputNames>k__BackingField:
-    - DualShock4GamepadHID
-    - DualSenseGamepadHID
-    <ButtonSpritesAssets>k__BackingField: []
+  - {fileID: 11400000, guid: be5c45bde577b3a49bc4dc186ba9db0c, type: 2}
+  - {fileID: 11400000, guid: 7f14585c87bab6a4d95b3daa72c863a2, type: 2}
+  - {fileID: 11400000, guid: 203590df231b3fa49983a997bd287a20, type: 2}
   <DontDestroyOnSceneChange>k__BackingField: 1
   activePromptGroups:
   - {fileID: 1786587863}

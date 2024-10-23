@@ -1,0 +1,823 @@
+fileFormatVersion: 2
+guid: dce908bec93f61240ac9435871707673
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Linux64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 924
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0177fd76a1daf4095ba963ecc46875
+      internalID: 688966008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 924
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b65fdc042f8384a9977d6ac2ef0b73
+      internalID: -1528135169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 924
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a72361833971b44b964a9d59cde26f
+      internalID: 1476970755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 924
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf2c89dda2b07e42a40e68b2085cf13
+      internalID: -771893835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 924
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e831b46c66731c4983ec3a75fbb2ac3
+      internalID: 700686913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 924
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b9193533c62fe4cbdb9453d8ec78d7
+      internalID: -1239662135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 924
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbadbde03e62404092b42b5330c17f6
+      internalID: -1758666734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 924
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72022d06f0506374da4cf535cd13b78d
+      internalID: -323810071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 924
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400be5221fdfe614d8725a41d95754fa
+      internalID: -991447039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 924
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e7cddf1bda0c746a7dc758b805272c
+      internalID: 614414336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 824
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9abdbdd731e094b8777b3f95869aaa
+      internalID: 1479504303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 824
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3892a8f35a8d4c4d9dcc648ad57b520
+      internalID: 767841289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 824
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bce1e523afcea4a81f6d7840e84af2
+      internalID: 1061567186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 824
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9d047d039d4904280333838ac1c8af
+      internalID: -1935604430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 824
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896cb51763c316145adbd308be1a792c
+      internalID: -1646796260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 824
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e25a9f1400b47409f547db4bf41afd
+      internalID: 1950715339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 824
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6bc0b30598a0e4187d3e986ed53f47
+      internalID: -1544742175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 824
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666c50ab50aae704f9f6a6c9c38c97c2
+      internalID: -142510772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 824
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822d295b7c3367f469fc5a20a6aa605b
+      internalID: -1080860549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 824
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1747e3d359edec242a384ef257972c23
+      internalID: -655675817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 724
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504606349cbe13f4aac73fa8b1ef19dd
+      internalID: 1668584129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 724
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c3f9a4103c1654ba0b032edfaa1651
+      internalID: 799915214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 724
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086e167c7e669434ab4cec428cbfdc53
+      internalID: 1004900677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 724
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d06692e638f0f419fc1edc70bc1583
+      internalID: -1633336119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 724
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19358c2b169ec444aacf15bb41f77b4f
+      internalID: -1485908742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 724
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279ea56d1c38838419aaa3d4099e55a7
+      internalID: 126783382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 724
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9e43ede6711c948a7f4de974a132df
+      internalID: 1764979649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 724
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bf81a1388ebd94d8423d3befd604ea
+      internalID: 1794121094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SteamDeck_buttons_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 724
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fcbba9f7a9d5ef4a9b04315da5b8785
+      internalID: -1649670483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 15aadb88d1fa9b44c99923ec63d79729
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SteamDeck_buttons_spritesheet_0: 688966008
+      SteamDeck_buttons_spritesheet_1: -1528135169
+      SteamDeck_buttons_spritesheet_10: 1479504303
+      SteamDeck_buttons_spritesheet_11: 767841289
+      SteamDeck_buttons_spritesheet_12: 1061567186
+      SteamDeck_buttons_spritesheet_13: -1935604430
+      SteamDeck_buttons_spritesheet_14: -1646796260
+      SteamDeck_buttons_spritesheet_15: 1950715339
+      SteamDeck_buttons_spritesheet_16: -1544742175
+      SteamDeck_buttons_spritesheet_17: -142510772
+      SteamDeck_buttons_spritesheet_18: -1080860549
+      SteamDeck_buttons_spritesheet_19: -655675817
+      SteamDeck_buttons_spritesheet_2: 1476970755
+      SteamDeck_buttons_spritesheet_20: 1668584129
+      SteamDeck_buttons_spritesheet_21: 799915214
+      SteamDeck_buttons_spritesheet_22: 1004900677
+      SteamDeck_buttons_spritesheet_23: -1633336119
+      SteamDeck_buttons_spritesheet_24: -1485908742
+      SteamDeck_buttons_spritesheet_25: 126783382
+      SteamDeck_buttons_spritesheet_26: 1764979649
+      SteamDeck_buttons_spritesheet_27: 1794121094
+      SteamDeck_buttons_spritesheet_28: -1649670483
+      SteamDeck_buttons_spritesheet_3: -771893835
+      SteamDeck_buttons_spritesheet_4: 700686913
+      SteamDeck_buttons_spritesheet_5: -1239662135
+      SteamDeck_buttons_spritesheet_6: -1758666734
+      SteamDeck_buttons_spritesheet_7: -323810071
+      SteamDeck_buttons_spritesheet_8: -991447039
+      SteamDeck_buttons_spritesheet_9: 614414336
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

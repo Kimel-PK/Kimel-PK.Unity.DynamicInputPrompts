@@ -15,7 +15,7 @@ namespace KimelPK.DynamicInputPrompts {
 		public static List<(string, string)> ActiveInputDeviceNames { get; private set; } = new();
 		
 		[field: SerializeField] public PlayerInput PlayerInput { get; private set; }
-		[field: SerializeField] public List<SupportedInputDevice> SupportedInputDevices { get; private set; }
+		[field: SerializeField] public List<InputDeviceDefinition> SupportedInputDevices { get; private set; }
 		[field: SerializeField] public bool DontDestroyOnSceneChange { get; set; } = true;
 		
 		[SerializeField] private List<ButtonPromptsGroup> activePromptGroups = new();
@@ -31,12 +31,12 @@ namespace KimelPK.DynamicInputPrompts {
 		}
 
 		private void Start () {
-			foreach (SupportedInputDevice supportedDevice in SupportedInputDevices)
+			foreach (InputDeviceDefinition supportedDevice in SupportedInputDevices)
 				TMP_Settings.defaultSpriteAsset.fallbackSpriteAssets.AddRange(supportedDevice.ButtonSpritesAssets);
 		}
 
 		private void OnDestroy () {
-			foreach (SupportedInputDevice supportedDevice in SupportedInputDevices) {
+			foreach (InputDeviceDefinition supportedDevice in SupportedInputDevices) {
 				foreach (TMP_SpriteAsset buttonSpritesAsset in supportedDevice.ButtonSpritesAssets)
 					TMP_Settings.defaultSpriteAsset.fallbackSpriteAssets.Remove (buttonSpritesAsset);
 			}
@@ -60,7 +60,7 @@ namespace KimelPK.DynamicInputPrompts {
 
 		private void GetActiveInputDevices() {
 			ActiveInputDeviceNames.Clear();
-			foreach (SupportedInputDevice supportedDevice in SupportedInputDevices) {
+			foreach (InputDeviceDefinition supportedDevice in SupportedInputDevices) {
 				foreach (InputDevice inputDevice in PlayerInput.devices) {
 					foreach (string unityInputName in supportedDevice.MatchingUnityInputNames) {
 						if (inputDevice.ToString () != unityInputName)
