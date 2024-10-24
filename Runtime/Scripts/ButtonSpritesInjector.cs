@@ -24,8 +24,8 @@ namespace KimelPK.DynamicInputPrompts {
 		private string _originalText;
 
 		private void Awake () {
-			textMeshProText ??= GetComponent<TMP_Text>();
-			_originalText = textMeshProText.text;
+			if (textMeshProText && string.IsNullOrEmpty (_originalText))
+				_originalText = textMeshProText.text;
 		}
 
 		private void Start() {
@@ -47,16 +47,19 @@ namespace KimelPK.DynamicInputPrompts {
 			if (string.IsNullOrEmpty(text))
 				return;
 
+			string iconsCombined = "";
+			
 			string actionName = ExtractActionName(textMeshProText.text);
 			while (!string.IsNullOrEmpty(actionName)) {
 				InputAction inputAction = ButtonSpritesManager.GetInputAction(actionName);
 				string icons = HidePrompts ? "" : GetIcons(inputAction, ButtonSpritesManager.ActiveInputDeviceNames);
+				iconsCombined += icons;
 				textMeshProText.text = textMeshProText.text.Replace($"<InputAction=\"{actionName}\">", icons);
 				actionName = ExtractActionName(textMeshProText.text);
 			}
 			
 			if (disableObjectIfNoPrompts)
-				gameObject.SetActive(textMeshProText.text != _originalText);
+				gameObject.SetActive(iconsCombined != "");
 		}
 		
 		private void ButtonSpritesManager_InputDeviceChanged() {

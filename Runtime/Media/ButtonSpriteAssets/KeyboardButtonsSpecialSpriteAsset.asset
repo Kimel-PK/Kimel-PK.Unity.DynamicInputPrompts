@@ -42,7 +42,7 @@ MonoBehaviour:
     m_Unicode: 65534
     m_GlyphIndex: 0
     m_Scale: 1
-    m_Name: Keyboard_buttons_special_spritesheet_0
+    m_Name: Keyboard_esc
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 1
@@ -52,7 +52,7 @@ MonoBehaviour:
     m_Unicode: 65534
     m_GlyphIndex: 2
     m_Scale: 1
-    m_Name: Keyboard_buttons_special_spritesheet_2
+    m_Name: Keyboard_slash
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 3
@@ -152,22 +152,22 @@ MonoBehaviour:
     m_Unicode: 65534
     m_GlyphIndex: 22
     m_Scale: 1
-    m_Name: Keyboard_buttons_special_spritesheet_22
+    m_Name: Keyboard_upArrow
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 23
     m_Scale: 1
-    m_Name: Keyboard_buttons_special_spritesheet_23
+    m_Name: Keyboard_rightArrow
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 24
     m_Scale: 1
-    m_Name: Keyboard_buttons_special_spritesheet_24
+    m_Name: Keyboard_downArrow
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 25
     m_Scale: 1
-    m_Name: Keyboard_buttons_special_spritesheet_25
+    m_Name: Keyboard_leftArrow
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 26

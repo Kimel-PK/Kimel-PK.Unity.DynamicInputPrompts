@@ -84,12 +84,12 @@ MonoBehaviour:
     m_Unicode: 65534
     m_GlyphIndex: 0
     m_Scale: 1
-    m_Name: Keyboard&Mouse_1
+    m_Name: Keyboard_1
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 1
     m_Scale: 1
-    m_Name: Keyboard&Mouse_2
+    m_Name: Keyboard_2
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 2
@@ -109,77 +109,77 @@ MonoBehaviour:
     m_Unicode: 65534
     m_GlyphIndex: 5
     m_Scale: 1
-    m_Name: Keyboard_buttons_alphanumeric_spritesheet_5
+    m_Name: Keyboard_6
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 6
     m_Scale: 1
-    m_Name: Keyboard_buttons_alphanumeric_spritesheet_6
+    m_Name: Keyboard_7
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 7
     m_Scale: 1
-    m_Name: Keyboard_buttons_alphanumeric_spritesheet_7
+    m_Name: Keyboard_8
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 8
     m_Scale: 1
-    m_Name: Keyboard_buttons_alphanumeric_spritesheet_8
+    m_Name: Keyboard_9
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 9
     m_Scale: 1
-    m_Name: Keyboard_buttons_alphanumeric_spritesheet_9
+    m_Name: Keyboard_0
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 10
     m_Scale: 1
-    m_Name: Keyboard_buttons_alphanumeric_spritesheet_10
+    m_Name: Keyboard_q
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 11
     m_Scale: 1
-    m_Name: Keyboard&Mouse_W
+    m_Name: Keyboard_w
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 12
     m_Scale: 1
-    m_Name: Keyboard_E
+    m_Name: Keyboard_e
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 13
     m_Scale: 1
-    m_Name: Keyboard_buttons_alphanumeric_spritesheet_13
+    m_Name: Keyboard_r
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 14
     m_Scale: 1
-    m_Name: Keyboard_buttons_alphanumeric_spritesheet_14
+    m_Name: Keyboard_t
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 15
     m_Scale: 1
-    m_Name: Keyboard_buttons_alphanumeric_spritesheet_15
+    m_Name: Keyboard_y
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 16
     m_Scale: 1
-    m_Name: Keyboard_buttons_alphanumeric_spritesheet_16
+    m_Name: Keyboard_u
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 17
     m_Scale: 1
-    m_Name: Keyboard_buttons_alphanumeric_spritesheet_17
+    m_Name: Keyboard_i
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 18
     m_Scale: 1
-    m_Name: Keyboard_buttons_alphanumeric_spritesheet_18
+    m_Name: Keyboard_o
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 19
     m_Scale: 1
-    m_Name: Keyboard_buttons_alphanumeric_spritesheet_19
+    m_Name: Keyboard_p
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 20
@@ -194,42 +194,42 @@ MonoBehaviour:
     m_Unicode: 65534
     m_GlyphIndex: 22
     m_Scale: 1
-    m_Name: Keyboard&Mouse_D
+    m_Name: Keyboard_d
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 23
     m_Scale: 1
-    m_Name: Keyboard_buttons_alphanumeric_spritesheet_23
+    m_Name: Keyboard_f
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 24
     m_Scale: 1
-    m_Name: Keyboard_buttons_alphanumeric_spritesheet_24
+    m_Name: Keyboard_g
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 25
     m_Scale: 1
-    m_Name: Keyboard_buttons_alphanumeric_spritesheet_25
+    m_Name: Keyboard_h
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 26
     m_Scale: 1
-    m_Name: Keyboard_buttons_alphanumeric_spritesheet_26
+    m_Name: Keyboard_j
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 27
     m_Scale: 1
-    m_Name: Keyboard_buttons_alphanumeric_spritesheet_27
+    m_Name: Keyboard_k
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 28
     m_Scale: 1
-    m_Name: Keyboard_buttons_alphanumeric_spritesheet_28
+    m_Name: Keyboard_l
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 29
     m_Scale: 1
-    m_Name: Keyboard_buttons_alphanumeric_spritesheet_29
+    m_Name: Keyboard_z
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 30
@@ -239,32 +239,27 @@ MonoBehaviour:
     m_Unicode: 65534
     m_GlyphIndex: 31
     m_Scale: 1
-    m_Name: Keyboard_buttons_alphanumeric_spritesheet_31
+    m_Name: Keyboard_c
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 32
     m_Scale: 1
-    m_Name: Keyboard_buttons_alphanumeric_spritesheet_32
+    m_Name: Keyboard_v
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 33
     m_Scale: 1
-    m_Name: Keyboard_buttons_alphanumeric_spritesheet_33
+    m_Name: Keyboard_b
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 34
     m_Scale: 1
-    m_Name: Keyboard_buttons_alphanumeric_spritesheet_34
+    m_Name: Keyboard_n
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 35
     m_Scale: 1
-    m_Name: Keyboard_buttons_alphanumeric_spritesheet_35
-  - m_ElementType: 2
-    m_Unicode: 65534
-    m_GlyphIndex: 9
-    m_Scale: 1
-    m_Name: Keyboard_buttons_alphanumeric_spritesheet_9
+    m_Name: Keyboard_m
   m_GlyphTable:
   - m_Index: 0
     m_Metrics:
