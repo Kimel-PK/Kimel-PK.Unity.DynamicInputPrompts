@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <SpritesheetName>k__BackingField: SteamDeck
   <GenericDeviceName>k__BackingField: Gamepad
-  <MatchingUnityInputNames>k__BackingField: []
+  <DeviceDetector>k__BackingField: {fileID: 11400000, guid: 7b733455463f36843810ef33e485ad3c, type: 2}
   <ButtonSpritesAssets>k__BackingField:
   - {fileID: 11400000, guid: 984343a35b3d1c14abdffbfd5f1f5a86, type: 2}

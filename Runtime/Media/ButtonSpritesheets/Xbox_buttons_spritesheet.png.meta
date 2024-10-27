@@ -136,7 +136,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Xbox_A
+      name: Xbox_buttonSouth
       rect:
         serializedVersion: 2
         x: 0
@@ -144,169 +144,169 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82d3637a789cf98418337a22ae8b785f
-      internalID: -541143376
+      spriteID: 7d586a6aec378c246a593dee58674c69
+      internalID: -896065122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_B
+      name: Xbox_buttonEast
       rect:
         serializedVersion: 2
-        x: 256
+        x: 261
         y: 1792
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5df2277c656f9e04fb3d4258d826016e
-      internalID: 364228505
+      spriteID: da33faf87cc1bff4da8bf5811b76f9c2
+      internalID: 1840798958
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_X
+      name: Xbox_buttonWest
       rect:
         serializedVersion: 2
-        x: 512
+        x: 522
         y: 1792
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae5553c379ec3cc4eb5546724e44ec80
-      internalID: 941710567
+      spriteID: 982ce7d27ccee6148ae913136b9c67ca
+      internalID: 1682236044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_Y
+      name: Xbox_buttonNorth
       rect:
         serializedVersion: 2
-        x: 768
+        x: 783
         y: 1792
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 767d42dbc562b4f4690ecb242e86ca8f
-      internalID: -1082585429
+      spriteID: 841c4f5cdeb35754c848bb7eb682988a
+      internalID: 632691906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_LS
+      name: Xbox_leftStick
       rect:
         serializedVersion: 2
         x: 0
-        y: 1536
+        y: 1531
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79890b98fb6e6fb4eb05d0470b1474e3
-      internalID: -1336144062
+      spriteID: 8c21cf0c48925e048bb0c460f80e785b
+      internalID: 565152443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_LS_press
+      name: Xbox_leftStickPress
       rect:
         serializedVersion: 2
-        x: 256
-        y: 1536
+        x: 261
+        y: 1531
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab341c4e2bae775429055086a6bb5143
-      internalID: 1755529792
+      spriteID: 53f5515b21583274b9f8e2370d5304db
+      internalID: -452628484
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_RS
+      name: Xbox_rightStick
       rect:
         serializedVersion: 2
-        x: 512
-        y: 1536
+        x: 522
+        y: 1531
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4dc8da4738153e4297f496bfd41b70b
-      internalID: 417381976
+      spriteID: 9b43a39d49e8730498bb41ff361e33c2
+      internalID: -42834361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_RS_press
+      name: Xbox_rightStickPress
       rect:
         serializedVersion: 2
-        x: 768
-        y: 1536
+        x: 783
+        y: 1531
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e2c0a5be4a9172408c847d7ab269248
-      internalID: -1704148774
+      spriteID: 75a7ec2a26632d245aed417c26e4c8b2
+      internalID: -2011412238
       vertices: []
       indices: 
       edges: []
@@ -316,18 +316,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1280
+        y: 1270
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e480d6747ee7a82428dc28b8be9d5256
+      spriteID: 7d2d7ae2a90c21f4f805e8d6666c2b1a
       internalID: 1675049784
       vertices: []
       indices: 
@@ -337,19 +337,19 @@ TextureImporter:
       name: Xbox_dpad_up
       rect:
         serializedVersion: 2
-        x: 256
-        y: 1280
+        x: 261
+        y: 1270
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 064487a7e4da94346b0b751b3a2f39ee
+      spriteID: f484e707f9c375f449007e15249793a4
       internalID: 567912515
       vertices: []
       indices: 
@@ -359,19 +359,19 @@ TextureImporter:
       name: Xbox_dpad_right
       rect:
         serializedVersion: 2
-        x: 512
-        y: 1280
+        x: 522
+        y: 1270
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61a66b8f12b4de6438d045a2326fc14b
+      spriteID: 1f2537c2bcbb9b5448f55d88fd606615
       internalID: 355461459
       vertices: []
       indices: 
@@ -381,19 +381,19 @@ TextureImporter:
       name: Xbox_dpad_down
       rect:
         serializedVersion: 2
-        x: 768
-        y: 1280
+        x: 783
+        y: 1270
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcee0665c665e8b46ba07642a01b2034
+      spriteID: 8b781384d5b2d6a448f5de612d2f333b
       internalID: 2122608897
       vertices: []
       indices: 
@@ -403,108 +403,108 @@ TextureImporter:
       name: Xbox_dpad_left
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 1280
+        x: 1044
+        y: 1270
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 671f221ac16290e46930e688de5895ed
+      spriteID: 5cfddfdf63bb4cb42ab3b44eb7ad21dc
       internalID: -1080021999
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_LT
+      name: Xbox_leftTrigger
       rect:
         serializedVersion: 2
         x: 0
-        y: 1024
+        y: 1009
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d64a606afe51bdc46a898b2a04e0f4b9
-      internalID: -1793311192
+      spriteID: 69d7e387c8b4de4478cc61c239c95744
+      internalID: -450602342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_LB
+      name: Xbox_leftShoulder
       rect:
         serializedVersion: 2
-        x: 256
-        y: 1024
+        x: 261
+        y: 1009
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6d099ac575a5324a98ee13dc925b317
-      internalID: 855054527
+      spriteID: bbf4dc8e86db99740b7b7d3e9ddeddcd
+      internalID: 432850310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_RT
+      name: Xbox_rightTrigger
       rect:
         serializedVersion: 2
-        x: 512
-        y: 1024
+        x: 522
+        y: 1009
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36f156a91962a254f9a761148128c037
-      internalID: -1707799531
+      spriteID: 6fcd92cd8b6a0a7488e9606fdfa58410
+      internalID: -375534285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_RB
+      name: Xbox_rightShoulder
       rect:
         serializedVersion: 2
-        x: 768
-        y: 1024
+        x: 783
+        y: 1009
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58ce71e3f7c255540a4eb02c25e7552a
-      internalID: -1250373732
+      spriteID: b6a323be85c131648952d2ad4017b1a2
+      internalID: -2058407245
       vertices: []
       indices: 
       edges: []
@@ -514,18 +514,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 768
+        y: 748
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec4eb47f3580db84d99f90f720cf86fd
+      spriteID: 6d13d013993783b41a270cb22c0490b7
       internalID: 126504910
       vertices: []
       indices: 
@@ -535,42 +535,42 @@ TextureImporter:
       name: Xbox_select
       rect:
         serializedVersion: 2
-        x: 256
-        y: 768
+        x: 261
+        y: 748
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b103b59e9d5a3644c8d05c95c3ef6577
+      spriteID: 219a91d52ec08904a89989fc61b330f8
       internalID: -1959879962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Xbox_upload
+      name: Xbox_share
       rect:
         serializedVersion: 2
-        x: 512
-        y: 768
+        x: 522
+        y: 748
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da6587457c22b7d41951d9019ac960a4
-      internalID: -1082440878
+      spriteID: 7cde8cbff8898b745bfc3177a4050e36
+      internalID: 1566426423
       vertices: []
       indices: 
       edges: []
@@ -589,27 +589,26 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Xbox_A: -541143376
-      Xbox_B: 364228505
-      Xbox_LB: 855054527
-      Xbox_LS: -1336144062
-      Xbox_LS_press: 1755529792
-      Xbox_LT: -1793311192
-      Xbox_RB: -1250373732
-      Xbox_RS: 417381976
-      Xbox_RS_press: -1704148774
-      Xbox_RT: -1707799531
-      Xbox_X: 941710567
-      Xbox_Y: -1082585429
+      Xbox_buttonEast: 1840798958
+      Xbox_buttonNorth: 632691906
+      Xbox_buttonSouth: -896065122
+      Xbox_buttonWest: 1682236044
       Xbox_dpad: 1675049784
       Xbox_dpad_down: 2122608897
       Xbox_dpad_left: -1080021999
       Xbox_dpad_right: 355461459
       Xbox_dpad_up: 567912515
+      Xbox_leftShoulder: 432850310
+      Xbox_leftStick: 565152443
+      Xbox_leftStickPress: -452628484
+      Xbox_leftTrigger: -450602342
+      Xbox_rightShoulder: -2058407245
+      Xbox_rightStick: -42834361
+      Xbox_rightStickPress: -2011412238
+      Xbox_rightTrigger: -375534285
       Xbox_select: -1959879962
+      Xbox_share: 1566426423
       Xbox_start: 126504910
-      Xbox_upload: -1082440878
-      box_buttons_LS: -1336144062
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

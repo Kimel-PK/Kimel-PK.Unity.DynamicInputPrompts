@@ -271,7 +271,7 @@ MonoBehaviour:
   disableObjectIfNoPrompts: 1
   prefix: 
   suffix: 
-  textMeshProText: {fileID: 0}
+  textMeshProText: {fileID: 44000338}
 --- !u!1 &80938407
 GameObject:
   m_ObjectHideFlags: 0
@@ -1826,6 +1826,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: be5c45bde577b3a49bc4dc186ba9db0c, type: 2}
   - {fileID: 11400000, guid: 7f14585c87bab6a4d95b3daa72c863a2, type: 2}
   - {fileID: 11400000, guid: 203590df231b3fa49983a997bd287a20, type: 2}
+  - {fileID: 11400000, guid: a76a21fb741181a439dd4f9414fd8265, type: 2}
+  - {fileID: 11400000, guid: 6adc84c6f2bcff84caf63c1d8b551f1e, type: 2}
   <DontDestroyOnSceneChange>k__BackingField: 1
   activePromptGroups:
   - {fileID: 1786587863}
@@ -2805,7 +2807,7 @@ MonoBehaviour:
   disableObjectIfNoPrompts: 1
   prefix: 
   suffix: 
-  textMeshProText: {fileID: 0}
+  textMeshProText: {fileID: 1648223287}
 --- !u!1 &1786454730
 GameObject:
   m_ObjectHideFlags: 0
@@ -3175,7 +3177,7 @@ MonoBehaviour:
   disableObjectIfNoPrompts: 1
   prefix: 
   suffix: 
-  textMeshProText: {fileID: 0}
+  textMeshProText: {fileID: 1990489243}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

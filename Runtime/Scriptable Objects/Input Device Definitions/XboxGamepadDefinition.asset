@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9804e7cb532bb2e4b8669cfc12e71bdb, type: 3}
   m_Name: XboxGamepadDefinition
   m_EditorClassIdentifier: 
-  <SpritesheetName>k__BackingField: XBox
+  <SpritesheetName>k__BackingField: Xbox
   <GenericDeviceName>k__BackingField: Gamepad
-  <MatchingUnityInputNames>k__BackingField:
-  - XInputControllerWindows:/XInputControllerWindows
+  <DeviceDetector>k__BackingField: {fileID: 11400000, guid: f5c94622de9700146b346c225df983a4, type: 2}
   <ButtonSpritesAssets>k__BackingField:
-  - {fileID: 11400000, guid: 2c6765ceb93e419439dbae4a07bf30ce, type: 2}
+  - {fileID: 11400000, guid: da826e12da3d9f6469cd5f8954dc26c9, type: 2}

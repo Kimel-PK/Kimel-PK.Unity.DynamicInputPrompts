@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9804e7cb532bb2e4b8669cfc12e71bdb, type: 3}
-  m_Name: MouseDefinition
+  m_Name: KeyboardDefinition
   m_EditorClassIdentifier: 
-  <SpritesheetName>k__BackingField: Mouse
-  <GenericDeviceName>k__BackingField: Mouse
-  <MatchingUnityInputNames>k__BackingField:
-  - Mouse:/Mouse
+  <SpritesheetName>k__BackingField: Keyboard
+  <GenericDeviceName>k__BackingField: Keyboard
+  <DeviceDetector>k__BackingField: {fileID: 11400000, guid: d41384903eb6d50428f34473ee42f15e, type: 2}
   <ButtonSpritesAssets>k__BackingField:
-  - {fileID: 11400000, guid: 22eef06afbe970847ab7cb18e26d03b3, type: 2}
+  - {fileID: 11400000, guid: 185ec5182e284c045b050954b6fed0cf, type: 2}
+  - {fileID: 11400000, guid: c11b6020bd942eb4ca9c263479eab3aa, type: 2}

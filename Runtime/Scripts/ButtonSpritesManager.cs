@@ -62,12 +62,10 @@ namespace KimelPK.DynamicInputPrompts {
 			ActiveInputDeviceNames.Clear();
 			foreach (InputDeviceDefinition supportedDevice in SupportedInputDevices) {
 				foreach (InputDevice inputDevice in PlayerInput.devices) {
-					foreach (string unityInputName in supportedDevice.MatchingUnityInputNames) {
-						if (inputDevice.ToString () != unityInputName)
-							continue;
-						
-						ActiveInputDeviceNames.Add ((supportedDevice.SpritesheetName, supportedDevice.GenericDeviceName));
-					}
+					if (!supportedDevice.DeviceDetector.DetectDevice (inputDevice))
+						continue;
+					
+					ActiveInputDeviceNames.Add ((supportedDevice.SpritesheetName, supportedDevice.GenericDeviceName));
 				}
 			}
 		}
