@@ -43,6 +43,10 @@ namespace KimelPK.DynamicInputPrompts {
 		
 		public void InjectButtonSprites(string text) {
 			_originalText = text;
+			if (!textMeshProText) {
+				Debug.LogError ("Cannot inject sprites into text because TextMeshProText is not assigned.", this);
+				return;
+			}
 			textMeshProText.text = text;
 			if (string.IsNullOrEmpty(text))
 				return;
