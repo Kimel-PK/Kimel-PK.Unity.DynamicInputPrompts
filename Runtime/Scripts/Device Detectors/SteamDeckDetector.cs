@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.InputSystem.XInput;
 
 namespace KimelPK.DynamicInputPrompts {
 	
@@ -8,7 +7,7 @@ namespace KimelPK.DynamicInputPrompts {
 	public class SteamDeckDetector : DeviceDetector {
 
 		public override bool DetectDevice (InputDevice inputDevice) {
-			return inputDevice is XInputController && inputDevice.name.Contains("Steam");
+			return inputDevice.displayName.ToLower ().Contains ("steam");
 		}
 	}
 }
