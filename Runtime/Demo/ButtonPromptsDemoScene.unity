@@ -1828,6 +1828,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 203590df231b3fa49983a997bd287a20, type: 2}
   - {fileID: 11400000, guid: a76a21fb741181a439dd4f9414fd8265, type: 2}
   - {fileID: 11400000, guid: 6adc84c6f2bcff84caf63c1d8b551f1e, type: 2}
+  - {fileID: 11400000, guid: e27423a82e47280489e15da09410f899, type: 2}
   <DontDestroyOnSceneChange>k__BackingField: 1
   activePromptGroups:
   - {fileID: 1786587863}
@@ -2200,10 +2201,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 313849369}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1090.6, y: 142.6}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1492456868
 MonoBehaviour:
@@ -2226,18 +2227,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'Gamepad button south: <sprite name="Xbox_buttonSouth"> <sprite name="PS_buttonSouth">
-    <sprite name="Steam_buttonSouth"> <sprite name="Switch_buttonSouth">
+    <sprite name="SteamDeck_buttonSouth"> <sprite name="Switch_buttonSouth">
 
     Gamepad
     button east: <sprite name="Xbox_buttonEast"> <sprite name="PS_buttonEast"> <sprite
-    name="Steam_buttonEast"> <sprite name="Switch_buttonEast">
+    name="SteamDeck_buttonEast"> <sprite name="Switch_buttonEast">
 
     Gamepad button
-    west: <sprite name="Xbox_buttonWest"> <sprite name="PS_buttonWest"> <sprite name="Steam_buttonWest">
+    west: <sprite name="Xbox_buttonWest"> <sprite name="PS_buttonWest"> <sprite name="SteamDeck_buttonWest">
     <sprite name="Switch_buttonWest">
 
     Gamepad button north: <sprite name="Xbox_buttonNorth">
-    <sprite name="PS_buttonNorth"> <sprite name="Steam_buttonNorth"> <sprite name="Switch_buttonNorth">'
+    <sprite name="PS_buttonNorth"> <sprite name="SteamDeck_buttonNorth"> <sprite
+    name="Switch_buttonNorth">'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

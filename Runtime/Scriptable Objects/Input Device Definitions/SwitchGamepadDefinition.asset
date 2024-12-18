@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9804e7cb532bb2e4b8669cfc12e71bdb, type: 3}
-  m_Name: DualShockControllerDefinition
+  m_Name: SwitchGamepadDefinition
   m_EditorClassIdentifier: 
-  <SpritesheetName>k__BackingField: PS
+  <SpritesheetName>k__BackingField: Switch
   <GenericDeviceName>k__BackingField: Gamepad
-  <DeviceDetector>k__BackingField: {fileID: 11400000, guid: 409c07445e6d29548a310ee01fee45ad, type: 2}
+  <DeviceDetector>k__BackingField: {fileID: 11400000, guid: 89b6ad5f5d4fe134687e89dc9fc80806, type: 2}
   <ButtonSpritesAssets>k__BackingField:
-  - {fileID: 11400000, guid: 579379b595d2f0b44b529095b5602658, type: 2}
+  - {fileID: 11400000, guid: 9a5e3ff108c9fbc479cc31d26a0a0cde, type: 2}
