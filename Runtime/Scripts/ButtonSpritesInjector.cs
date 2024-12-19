@@ -1,8 +1,10 @@
+using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.Composites;
 
 namespace KimelPK.DynamicInputPrompts {
 	public class ButtonSpritesInjector : MonoBehaviour {
@@ -20,6 +22,8 @@ namespace KimelPK.DynamicInputPrompts {
 		[SerializeField] private string prefix;
 		[SerializeField] private string suffix;
 		[SerializeField] private TMP_Text textMeshProText;
+		[Tooltip("-1 will display every matching binding")]
+		[SerializeField] private int limitDisplayedBindings = -1;
 
 		private string _originalText;
 
@@ -81,8 +85,23 @@ namespace KimelPK.DynamicInputPrompts {
 		private string GetIcons(InputAction inputAction, List<(string, string)> activeDeviceNames) {
 			if (inputAction == null)
 				return "";
-			string icons = prefix;
+			
+			string icons = "";
+			float matchedBindings = 0;
+			float bindingPart = 1f;
+			
 			foreach (InputBinding inputActionBinding in inputAction.bindings) {
+				if (matchedBindings >= limitDisplayedBindings)
+					break;
+				
+				if (inputActionBinding.isComposite)
+					bindingPart = 1f;
+				
+				Type compositeType = InputSystem.TryGetBindingComposite(!string.IsNullOrEmpty(inputActionBinding.effectivePath) ? inputActionBinding.effectivePath : "null");
+				// count DPad bindings as .25
+				if (compositeType == typeof(Vector2Composite))
+					bindingPart = .25f;
+				
 				Match match = Regex.Match(inputActionBinding.ToString(), @".*?\/(.*?)(?=\[|$)");
 
 				if (!match.Success)
@@ -96,9 +115,10 @@ namespace KimelPK.DynamicInputPrompts {
 						continue;
 					
 					icons += $"<sprite name=\"{activeDeviceName.Item1}_{buttonName}\">";
+					matchedBindings += bindingPart;
 				}
 			}
-			return inputAction.bindings.Count == 0 ? "" : $"{icons}{suffix}";
+			return inputAction.bindings.Count == 0 ? "" : $"{prefix}{icons}{suffix}";
 		}
 	}
 }
