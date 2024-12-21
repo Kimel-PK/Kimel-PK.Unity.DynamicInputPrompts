@@ -91,7 +91,7 @@ namespace KimelPK.DynamicInputPrompts {
 			float bindingPart = 1f;
 			
 			foreach (InputBinding inputActionBinding in inputAction.bindings) {
-				if (matchedBindings >= limitDisplayedBindings)
+				if (limitDisplayedBindings != -1 && matchedBindings >= limitDisplayedBindings)
 					break;
 				
 				if (inputActionBinding.isComposite)
