@@ -95,14 +95,14 @@ namespace KimelPK.DynamicInputPrompts {
 				if (inputActionBinding.isComposite)
 					continue;
 
-				if (!IsBindingShown(matchedBindings)) {
-					matchedBindings++;
-					continue;
-				}
-
 				if (filterComposite) {
 					if (!inputActionBinding.isPartOfComposite || !compositeFilterSet.Contains(inputActionBinding.name))
 						continue;
+				}
+				
+				if (!IsBindingShown(matchedBindings)) {
+					matchedBindings++;
+					continue;
 				}
 
 				Match match = Regex.Match(inputActionBinding.ToString(), @".*?\/(.*?)(?=\[|$)");
