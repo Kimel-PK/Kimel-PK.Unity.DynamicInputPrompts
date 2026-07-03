@@ -47,7 +47,7 @@ MonoBehaviour:
     m_Unicode: 65534
     m_GlyphIndex: 1
     m_Scale: 1
-    m_Name: Keyboard_buttons_special_spritesheet_1
+    m_Name: Keyboard_backquote
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 2
@@ -208,6 +208,16 @@ MonoBehaviour:
     m_GlyphIndex: 33
     m_Scale: 1
     m_Name: Keyboard_buttons_special_spritesheet_33
+  - m_ElementType: 2
+    m_Unicode: 65534
+    m_GlyphIndex: 34
+    m_Scale: 1
+    m_Name: Keyboard_comma
+  - m_ElementType: 2
+    m_Unicode: 65534
+    m_GlyphIndex: 35
+    m_Scale: 1
+    m_Name: Keyboard_period
   m_GlyphTable:
   - m_Index: 0
     m_Metrics:
@@ -753,6 +763,38 @@ MonoBehaviour:
     m_AtlasIndex: 0
     m_ClassDefinitionType: 0
     sprite: {fileID: 1592495278, guid: 68cecea0c7410b5478859ebdbf40adff, type: 3}
+  - m_Index: 34
+    m_Metrics:
+      m_Width: 256
+      m_Height: 256
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 200
+      m_HorizontalAdvance: 256
+    m_GlyphRect:
+      m_X: 768
+      m_Y: 768
+      m_Width: 256
+      m_Height: 256
+    m_Scale: 1.5
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+    sprite: {fileID: 79492177, guid: 68cecea0c7410b5478859ebdbf40adff, type: 3}
+  - m_Index: 35
+    m_Metrics:
+      m_Width: 256
+      m_Height: 256
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 200
+      m_HorizontalAdvance: 256
+    m_GlyphRect:
+      m_X: 512
+      m_Y: 768
+      m_Width: 256
+      m_Height: 256
+    m_Scale: 1.5
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+    sprite: {fileID: -834817565, guid: 68cecea0c7410b5478859ebdbf40adff, type: 3}
   spriteInfoList: []
   fallbackSpriteAssets: []
 --- !u!21 &3319971349725129015
